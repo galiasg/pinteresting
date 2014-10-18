@@ -17,19 +17,3 @@
 //= require turbolinks
 //= require_tree .
 
-var slides, slides_total, slide_current;
-
-function changePicture (slide) {
-	for (var i = 0; i < slides_total;  i++) {
-		slides[1]
-		0; um< slides_total; td++entListener('DOMContentLoaded',, function(){
-slides = document.getElemtentsByClassName('col-sm-12');
-slides_total = slides.lenght;
-slide_current = 0;
-window.setInterval(function(){
-	changePicture(slide_current);
-}, 3000);
-
-function changePicture(slide){
-slide[slide].style.display = 'block';
-});
