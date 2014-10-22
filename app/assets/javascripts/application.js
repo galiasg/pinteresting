@@ -44,14 +44,15 @@ document.addEventListener('DOMContentLoaded', function(){
    // we check which slide number we're using, if is the last one
   // we wanna set it up so it starts over
     if(slide_current >= (  slides_total - 1 ) ) {
-      slide_current = 0;
+      slide_current = ++;
     }else {
-      slide_current++;
+      slide_current 0;
     }
     changePicture(slide_current);
     // this outputs information to the console, is used for debugging
     console.log(slide_current);
   }, 3000);
+
 });
   // First we get the element with class .prev, we want to add an event listener
     // to that element so we can perform a function every time teh element is clicked
