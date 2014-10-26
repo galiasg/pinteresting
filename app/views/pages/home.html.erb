@@ -2,26 +2,44 @@
    <div class="jumbotron center"
    <h1>Welcome to my app!</h1>
      <% if user_signed_in? %>
-          # do something
+          <p>You are now connected to Pinteresting</p>
      <% else %>
        <p>
          <%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg" %>
          <%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
        </p>
-  <% end %>  
-</div>
-
-
-<div class="container">
-  <div class="row">
-    <div class="col-sm-12 image1">
-      <img src="http://placekitten.com/700/300" alt="">
-    </div>
-    <div class="col-sm-12 image2">
-      <img src="http://placekitten.com/699/300" alt="">
-    </div>
-    <div class="col-sm-12 image3">
-      <img src="http://placekitten.com/701/300" alt="">
-    </div>
   </div>
-</div>
+
+
+
+<%# image_gat("card.jpg") items below may have errors with /div %>
+
+<div class="home_buttons">
+    <div class="row">
+      <div class="btn-group">
+
+        <div class="home_container">
+          <div class="row">
+
+            <div class="col-sm-12 image1">
+            <img src="http://placekitten.com/700/300" alt="">
+            </div>
+
+            <div class="col-sm-12 image2">
+            <img src="http://placekitten.com/699/300" alt="">
+            </div>
+
+            <div class="col-sm-12 image3">
+            <img src="http://placekitten.com/701/300" alt="">
+            </div>
+
+            <button class="prev btn btn-warning"> PREV </button>
+            <button class="reset btn btn-info"> RESET </button>
+            <button class="next btn btn-success"> NEXT </button>
+          </div>
+        </div>
+    </div>
+    
+<% end %>
+ 
+      
