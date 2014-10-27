@@ -19,7 +19,7 @@ var slides, slides_total, slide_current;
 
 function changePicture (slide) {
   for(var i = 0; i < slides_total; i++){
-    slides[i].style.display = 'none';
+    slides[i].style.display = 'block';
   }
   slides[slide].style.display = 'block';
 
