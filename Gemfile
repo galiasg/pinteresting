@@ -11,6 +11,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass' 
 gem 'devise', '~> 3.4.0'
+gem 'paperclip', '~> 4.2.0'
 
 
 group :development, :test do 
