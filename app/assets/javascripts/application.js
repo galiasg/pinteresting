@@ -14,6 +14,8 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+//= require masonry/jquery.masonry
+//= require jquery.turbolinks
 
 var slides, slides_total, slide_current;
 
