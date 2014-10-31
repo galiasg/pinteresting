@@ -4,7 +4,7 @@ resources :pins
 
 
   devise_for  :users
-  root 'pages#home'
+  root "pins#index"
 
   get 'pages/home'
 
